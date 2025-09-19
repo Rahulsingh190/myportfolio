@@ -1,0 +1,24 @@
+{
+  "name": "Rahul Singh - Senior Software Engineer",
+  "short_name": "Rahul Singh",
+  "description": "Portfolio of Rahul Singh - Senior Software Engineer with expertise in Android development, Java backend, microservices, and cloud technologies.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/profile-avatar.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/profile-avatar.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

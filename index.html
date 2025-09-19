@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Singh - Senior Software Engineer</title>
+    <meta name="description" content="Rahul Singh - Senior Software Engineer with 4.8+ years of expertise in Android development, Java backend, microservices, and cloud technologies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h3>Rahul Singh</h3>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__background"></div>
+        <div class="hero__container container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        Hi, I'm <span class="hero__name">Rahul Singh</span>
+                    </h1>
+                    <h2 class="hero__subtitle">
+                        Senior Software Engineer | Android & Java Backend | Microservices | Cloud | Fintech
+                    </h2>
+                    <p class="hero__description">
+                        4.8+ years of proven expertise building high-performance backend microservices and scalable Android applications for fintech, IoT, and enterprise domains.
+                    </p>
+                    <div class="hero__contact">
+                        <div class="hero__contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>rahul.singh79179@gmail.com</span>
+                        </div>
+                        <div class="hero__contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-9890354105</span>
+                        </div>
+                    </div>
+                    <div class="hero__social">
+                        <a href="https://linkedin.com/in/rahuls190" target="_blank" class="hero__social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Rahulsingh190" target="_blank" class="hero__social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://rahulsingh190.github.io/myportfolio" target="_blank" class="hero__social-link">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                        <a href="#" class="btn btn--secondary" onclick="downloadResume()">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="images/profile-avatar.png" alt="Rahul Singh" class="hero__img">
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#about" class="hero__scroll-button">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description">
+                            Versatile Senior Software Engineer with <strong>4.8+ years</strong> of proven expertise building high-performance backend microservices and scalable Android applications for fintech, IoT, and enterprise domains. 
+                        </p>
+                        <p class="about__description">
+                            Experienced in designing cloud-native distributed systems, optimizing mobile user experiences, and delivering mission-critical platforms processing millions of transactions.
+                        </p>
+                        <div class="about__highlights">
+                            <div class="highlight__item">
+                                <h4>Full-cycle product delivery</h4>
+                                <p>Architecting backend microservices and building companion Android apps</p>
+                            </div>
+                            <div class="highlight__item">
+                                <h4>Fintech Expertise</h4>
+                                <p>Secured loan workflows, real-time voucher & POS systems, fraud detection, regulatory compliance</p>
+                            </div>
+                            <div class="highlight__item">
+                                <h4>Scalable Systems</h4>
+                                <p>Reduced system latency by 40%, scaled apps to 150M+ monthly transactions and 100K+ downloads</p>
+                            </div>
+                            <div class="highlight__item">
+                                <h4>Cloud-native & Secure</h4>
+                                <p>AWS, Docker/Kubernetes, Kafka, OAuth2/JWT, Biometric/AES-256 encryption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section__title">Professional Experience</h2>
+            <div class="experience__timeline">
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__period">May 2024 – Present</div>
+                        <h3 class="timeline__title">Senior Software Engineer</h3>
+                        <h4 class="timeline__company">Programming.com, Mohali/Pune</h4>
+                        <ul class="timeline__achievements">
+                            <li>Architected and delivered Bajaj Vehicle Loan Platform across Android and backend systems, enabling 500K+ customers to apply, track, and manage loans with sub-2s approvals</li>
+                            <li>Designed microservices architecture with Spring Boot, Kafka, and AWS EKS for EMI, KYC, fraud detection, and credit scoring workflows</li>
+                            <li>Developed the companion Android app using Kotlin + Jetpack Compose with biometric login, loan calculator, and 4.6+ Play Store rating</li>
+                            <li>Integrated 20+ third-party APIs (banks, payment gateways, bureaus), reducing loan processing time by 65%</li>
+                            <li>Optimized backend queries & mobile performance (35% faster load times, 95% crash-free rate)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__period">Nov 2020 – Apr 2024</div>
+                        <h3 class="timeline__title">Software Engineer</h3>
+                        <h4 class="timeline__company">Launch Ventures, Hyderabad</h4>
+                        <ul class="timeline__achievements">
+                            <li>Built 8+ fintech & IoT applications with Java/Spring Boot and Android, scaling to 150M+ monthly transactions</li>
+                            <li>Developed POS systems for Android with offline-first billing, inventory sync, and real-time settlements across 200+ stores</li>
+                            <li>Created fitness mobile app with wearable integration and gamification, reaching 100K+ downloads</li>
+                            <li>Engineered high-throughput APIs with <200ms response time and secure OAuth2/JWT authentication</li>
+                            <li>Implemented CI/CD for backend + Android, reducing release cycle by 70% and ensuring zero-downtime deployments</li>
+                            <li>Mentored 4 developers in Spring Boot, Android MVVM, and TDD, boosting productivity and code quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section__title">Project Portfolio</h2>
+            <div class="projects__grid">
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Bajaj Vehicle Loan Platform</h3>
+                        <div class="project__company">Programming.com</div>
+                        <div class="project__type">Backend + Mobile</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Kotlin</span>
+                        <span class="tech__tag">Jetpack Compose</span>
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">Kafka</span>
+                        <span class="tech__tag">PostgreSQL</span>
+                        <span class="tech__tag">AWS EKS</span>
+                    </div>
+                    <p class="project__description">
+                        Built end-to-end loan lifecycle (application → KYC → approval → EMI → disbursement). Mobile app with loan calculator, EMI simulator, document upload, biometric login. Backend with Kafka workflows for fraud detection, EMI scheduling, payment reminders.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">Integrated 20+ APIs for instant credit scoring</div>
+                        <div class="highlight">500K+ customers served</div>
+                        <div class="highlight">Sub-2s loan approvals</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">KOKO Kiosk IoT Management</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend + Android</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Android</span>
+                        <span class="tech__tag">Kotlin</span>
+                        <span class="tech__tag">Room DB</span>
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">RabbitMQ</span>
+                        <span class="tech__tag">PostgreSQL</span>
+                    </div>
+                    <p class="project__description">
+                        Backend managed 600+ IoT kiosks, processing 1M+ sensor datapoints/day with predictive maintenance. Android app featured offline-first design with kiosk UI, large touch-friendly panels, and stock alerts.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">600+ IoT kiosks managed</div>
+                        <div class="highlight">1M+ sensor datapoints/day</div>
+                        <div class="highlight">99% uptime achieved</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Sodexo MobileCore Voucher System</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend + Mobile</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Android</span>
+                        <span class="tech__tag">Kotlin</span>
+                        <span class="tech__tag">SQLite</span>
+                        <span class="tech__tag">Retrofit</span>
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">Kafka</span>
+                        <span class="tech__tag">Elasticsearch</span>
+                        <span class="tech__tag">AWS</span>
+                    </div>
+                    <p class="project__description">
+                        Built secure APIs for 2M+ voucher redemptions/month with fraud detection & settlements. Mobile app with QR/NFC-based redemption, instant notifications and analytics.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">2M+ voucher redemptions/month</div>
+                        <div class="highlight">QR/NFC-based redemption</div>
+                        <div class="highlight">Event-driven Kafka pipelines</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Alphacoach Fitness Platform</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend + Mobile</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Android</span>
+                        <span class="tech__tag">Kotlin</span>
+                        <span class="tech__tag">Jetpack Compose</span>
+                        <span class="tech__tag">Google Fit</span>
+                        <span class="tech__tag">Spring WebFlux</span>
+                        <span class="tech__tag">PostgreSQL</span>
+                        <span class="tech__tag">Docker</span>
+                    </div>
+                    <p class="project__description">
+                        Fitness tracker app with wearable integration, calorie/workout planner, gamification features. Backend with reactive microservices using non-blocking I/O, handling 25K+ concurrent users.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">100K+ downloads</div>
+                        <div class="highlight">25K+ concurrent users</div>
+                        <div class="highlight">Wearable integration</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">KOKO Club POS System</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">MongoDB</span>
+                        <span class="tech__tag">Redis</span>
+                        <span class="tech__tag">Kafka</span>
+                        <span class="tech__tag">Docker</span>
+                    </div>
+                    <p class="project__description">
+                        Developed APIs for 100K+ daily POS transactions across 200+ retail outlets. Implemented Redis caching + MongoDB query tuning, cutting latency by 40%.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">100K+ daily transactions</div>
+                        <div class="highlight">200+ retail outlets</div>
+                        <div class="highlight">40% latency reduction</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Serelay Media Processing</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">MongoDB</span>
+                        <span class="tech__tag">Kafka</span>
+                        <span class="tech__tag">AWS S3</span>
+                    </div>
+                    <p class="project__description">
+                        Ingestion APIs for 10M+ media uploads with OCR, transcoding & GDPR workflows. Built distributed search engine with MongoDB aggregation pipelines for instant media discovery.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">10M+ media uploads</div>
+                        <div class="highlight">OCR & transcoding</div>
+                        <div class="highlight">GDPR compliance</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">InFact Invoice Management</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">Hibernate</span>
+                        <span class="tech__tag">PostgreSQL</span>
+                    </div>
+                    <p class="project__description">
+                        Migrated legacy invoices to modern Spring Boot microservices, improving reliability by 85%. Built comprehensive test suite with 90%+ coverage and near-zero production bugs.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">85% reliability improvement</div>
+                        <div class="highlight">90%+ test coverage</div>
+                        <div class="highlight">Near-zero production bugs</div>
+                    </div>
+                </div>
+
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">KOKO K2 Multi-Regional POS</h3>
+                        <div class="project__company">Launch Ventures</div>
+                        <div class="project__type">Backend</div>
+                    </div>
+                    <div class="project__tech">
+                        <span class="tech__tag">Spring Boot</span>
+                        <span class="tech__tag">RabbitMQ</span>
+                        <span class="tech__tag">Kubernetes</span>
+                        <span class="tech__tag">Spring Cloud Config</span>
+                    </div>
+                    <p class="project__description">
+                        Multi-region active-active deployment ensuring 50K+ transactions/hour during peak sales. Dynamic feature toggles via Spring Cloud Config with eventual consistency.
+                    </p>
+                    <div class="project__highlights">
+                        <div class="highlight">50K+ transactions/hour</div>
+                        <div class="highlight">Multi-region deployment</div>
+                        <div class="highlight">Dynamic feature toggles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section__title">Technical Expertise</h2>
+            <div class="skills__container">
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Backend Development</h3>
+                    <div class="skills__group">
+                        <div class="skill__item">
+                            <h4>Languages</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Java 8/11/17</span>
+                                <span class="skill__tag">Kotlin</span>
+                                <span class="skill__tag">Python</span>
+                                <span class="skill__tag">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Frameworks</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Spring Boot</span>
+                                <span class="skill__tag">Spring Cloud</span>
+                                <span class="skill__tag">Hibernate</span>
+                                <span class="skill__tag">Micronaut</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Databases</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">PostgreSQL</span>
+                                <span class="skill__tag">MySQL</span>
+                                <span class="skill__tag">MongoDB</span>
+                                <span class="skill__tag">Redis</span>
+                                <span class="skill__tag">Elasticsearch</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Cloud & DevOps</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">AWS (EKS, Lambda, RDS, S3)</span>
+                                <span class="skill__tag">Docker</span>
+                                <span class="skill__tag">Kubernetes</span>
+                                <span class="skill__tag">Terraform</span>
+                                <span class="skill__tag">Jenkins</span>
+                                <span class="skill__tag">CI/CD</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Messaging/Streaming</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Kafka</span>
+                                <span class="skill__tag">RabbitMQ</span>
+                                <span class="skill__tag">ActiveMQ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Android Development</h3>
+                    <div class="skills__group">
+                        <div class="skill__item">
+                            <h4>Languages & Tools</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Kotlin</span>
+                                <span class="skill__tag">Java</span>
+                                <span class="skill__tag">XML</span>
+                                <span class="skill__tag">Android SDK</span>
+                                <span class="skill__tag">Android Studio</span>
+                                <span class="skill__tag">Gradle</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Architecture</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">MVVM</span>
+                                <span class="skill__tag">Clean Architecture</span>
+                                <span class="skill__tag">Repository Pattern</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Libraries</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Jetpack Compose</span>
+                                <span class="skill__tag">Room</span>
+                                <span class="skill__tag">LiveData</span>
+                                <span class="skill__tag">ViewModel</span>
+                                <span class="skill__tag">Navigation</span>
+                                <span class="skill__tag">WorkManager</span>
+                                <span class="skill__tag">Retrofit</span>
+                                <span class="skill__tag">OkHttp</span>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <h4>Others</h4>
+                            <div class="skill__tags">
+                                <span class="skill__tag">Hilt/Dagger</span>
+                                <span class="skill__tag">Firebase</span>
+                                <span class="skill__tag">Coroutines</span>
+                                <span class="skill__tag">RxJava</span>
+                                <span class="skill__tag">Espresso</span>
+                                <span class="skill__tag">Mockito</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Architecture & Practices</h3>
+                    <div class="skills__group">
+                        <div class="skill__item">
+                            <div class="skill__tags">
+                                <span class="skill__tag">Microservices</span>
+                                <span class="skill__tag">Event-Driven Systems</span>
+                                <span class="skill__tag">CQRS</span>
+                                <span class="skill__tag">DDD</span>
+                                <span class="skill__tag">OAuth2</span>
+                                <span class="skill__tag">JWT</span>
+                                <span class="skill__tag">Biometric Auth</span>
+                                <span class="skill__tag">AES-256</span>
+                                <span class="skill__tag">TDD</span>
+                                <span class="skill__tag">CI/CD</span>
+                                <span class="skill__tag">Prometheus</span>
+                                <span class="skill__tag">Grafana</span>
+                                <span class="skill__tag">ELK</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section__title">Education</h2>
+            <div class="education__container">
+                <div class="education__item">
+                    <div class="education__icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education__content">
+                        <h3 class="education__degree">Bachelor of Technology (B.Tech) in Computer Science</h3>
+                        <h4 class="education__institution">Pune Institute of Computer Technology (SPPU)</h4>
+                        <div class="education__grade">CGPA: 7.09/10</div>
+                    </div>
+                </div>
+                <div class="education__item">
+                    <div class="education__icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education__content">
+                        <h3 class="education__degree">Diploma in Computer Engineering</h3>
+                        <h4 class="education__institution">Sou. Venutai Chavan Polytechnic College (MSBTE)</h4>
+                        <div class="education__grade">84.24%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:rahul.singh79179@gmail.com">rahul.singh79179@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919890354105">+91-9890354105</a>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Pune, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__social">
+                        <a href="https://linkedin.com/in/rahuls190" target="_blank" class="contact__social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Rahulsingh190" target="_blank" class="contact__social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://rahulsingh190.github.io/myportfolio" target="_blank" class="contact__social-link">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__text">
+                    <p>&copy; 2024 Rahul Singh. All rights reserved.</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://linkedin.com/in/rahuls190" target="_blank" class="footer__social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Rahulsingh190" target="_blank" class="footer__social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://rahulsingh190.github.io/myportfolio" target="_blank" class="footer__social-link">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
